@@ -1,6 +1,13 @@
 # FacebookScraper
 
-Simply keep your OpenGraph-Objects up to date
+You're hosting OpenGraphObjects for Facebook?
+Ever noticed, when you updated your objects, Facebook won't recognize
+these changes?
+
+According to FacebookDocs, they will scrape
+"Every 7 days after the first scrape".
+
+**FacebookScraper** for the rescue!
 
 ## Installation
 

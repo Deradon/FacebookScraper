@@ -1,6 +1,6 @@
 # FacebookScraper
 
-TODO: Write a gem description
+Simply keep your OpenGraph-Objects up to date
 
 ## Installation
 
@@ -16,9 +16,11 @@ Or install it yourself as:
 
     $ gem install facebook_scraper
 
-## Usage
+## Example
 
-TODO: Write usage instructions here
+```ruby
+FacebookScraper.trigger_with(url_to_your_open_graph_object)
+```
 
 ## Contributing
 

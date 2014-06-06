@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'facebook_scraper/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'FacebookScraper'
+  spec.name          = 'facebook_scraper'
   spec.version       = FacebookScraper::VERSION
   spec.authors       = ['Patrick Helm']
   spec.email         = ['deradon87@gmail.com']

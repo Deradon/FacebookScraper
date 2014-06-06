@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = FacebookScraper::VERSION
   spec.authors       = ['Patrick Helm']
   spec.email         = ['deradon87@gmail.com']
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ''
+  spec.description   = %q{Simply keep your OpenGraph-Objects up to date}
+  spec.summary       = %q{Simply keep your OpenGraph-Objects up to date}
+  spec.homepage      = 'https://github.com/Deradon/FacebookScraper'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)

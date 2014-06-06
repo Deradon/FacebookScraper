@@ -22,6 +22,35 @@ Or install it yourself as:
 FacebookScraper.trigger_with(url_to_your_open_graph_object)
 ```
 
+## Example (Using Rails)
+
+```ruby
+class AvatarsController
+  after_action :trigger_facebook_scraper, only: [:update]
+
+  # ...
+
+  private
+
+  # NOTE: The `background do ... end` part is optional
+  def trigger_facebook_scraper
+    background do
+      FacebookScraper.trigger_with(url_for(@avatar))
+    end
+  end
+
+  # Run a piece of code in parallel
+  def background
+    Thread.new do
+      yield
+      ActiveRecord::Base.connection.close
+    end
+  end
+
+  # ...
+end
+```
+
 ## Contributing
 
 1. Fork it

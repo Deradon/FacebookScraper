@@ -6,6 +6,7 @@ these changes?
 
 According to FacebookDocs, they will scrape
 "Every 7 days after the first scrape".
+So, lets force a scrape earlier.
 
 **FacebookScraper** for the rescue!
 
